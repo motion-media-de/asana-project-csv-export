@@ -1,0 +1,21 @@
+{
+  "name": "asana-project-csv-export",
+  "version": "1.0.0",
+  "description": "Quick and dirty script for exporting task descriptions and comments from asana projects to csv",
+  "main": "src/index.js",
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "asana-csv": "src/index.js"
+  },
+  "dependencies": {
+    "asana": "^2.0.3",
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.0.0",
+    "conf": "^11.0.2",
+    "csv-stringify": "^6.4.0",
+    "enquirer": "^2.4.1"
+  }
+}
